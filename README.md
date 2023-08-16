@@ -80,7 +80,3 @@ public class Main {
     }
 }
 ```
-
----
-
-Espero que este README represente adequadamente o seu projeto e o ajude a comunicar a funcionalidade e a estrutura do projeto de maneira clara. Certifique-se de substituir "link-para-imagem-do-diagrama.png" pelo link correto para a imagem do diagrama de classes que você criou.
