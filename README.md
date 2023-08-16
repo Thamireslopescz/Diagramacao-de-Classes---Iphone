@@ -1,7 +1,3 @@
-Claro! Aqui está o README formatado de acordo com as informações que você forneceu:
-
----
-
 # Projeto iPhone Multiuso
 
 Este projeto é um exemplo simples de modelagem de classes e interfaces em Java para representar as funcionalidades de um iPhone em diferentes contextos: Reprodutor Musical, Aparelho Telefônico e Navegador na Internet. Cada funcionalidade é representada por uma interface específica, e a classe `IPhone` implementa todas essas interfaces para demonstrar a versatilidade do dispositivo.
