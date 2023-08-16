@@ -1,0 +1,45 @@
+       +-----------------+
+       |  ReprodutorMusical  |
+       +-----------------+
+       | +reproduzirMusica() |
+       | +pausarMusica()    |
+       | +avancarMusica()   |
+       | +retrocederMusica()|
+       +-----------------+
+              ^
+              |
+              |
+       +-----------------+
+       | AparelhoTelefonico |
+       +-----------------+
+       | +fazerChamada()   |
+       | +receberChamada() |
+       | +encerrarChamada()|
+       +-----------------+
+              ^
+              |
+              |
+       +-----------------+
+       | NavegadorInternet |
+       +-----------------+
+       | +abrirURL()       |
+       | +fecharURL()      |
+       | +realizarBusca()  |
+       +-----------------+
+              ^
+              |
+              |
+       +-----------------+
+       |      IPhone       |
+       +-----------------+
+       | +reproduzirMusica() |
+       | +pausarMusica()    |
+       | +avancarMusica()   |
+       | +retrocederMusica()|
+       | +fazerChamada()   |
+       | +receberChamada() |
+       | +encerrarChamada()|
+       | +abrirURL()       |
+       | +fecharURL()      |
+       | +realizarBusca()  |
+       +-----------------+
