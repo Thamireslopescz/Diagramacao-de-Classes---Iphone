@@ -1,70 +1,80 @@
-Projeto iPhone Multiuso
-Este projeto consiste em um exemplo simples de modelagem de classes e interfaces em Java para representar as funcionalidades de um iPhone em diferentes contextos: Reprodutor Musical, Aparelho Telefônico e Navegador na Internet. Cada funcionalidade é representada por uma interface específica, e a classe IPhone implementa todas essas interfaces para demonstrar a versatilidade do dispositivo.
+Claro! Aqui está o README formatado de acordo com as informações que você forneceu:
 
-Funcionalidades
-Reprodutor Musical
-A funcionalidade de Reprodutor Musical é implementada pela interface ReprodutorMusical, que define métodos para reproduzir, pausar, avançar e retroceder músicas.
+---
 
-Aparelho Telefônico
-A funcionalidade de Aparelho Telefônico é representada pela interface AparelhoTelefonico, que define métodos para fazer chamadas, receber chamadas e encerrar chamadas.
+# Projeto iPhone Multiuso
 
-Navegador na Internet
-A funcionalidade de Navegador na Internet é definida pela interface NavegadorInternet, que define métodos para abrir URLs, fechar URLs e realizar buscas na internet.
+Este projeto é um exemplo simples de modelagem de classes e interfaces em Java para representar as funcionalidades de um iPhone em diferentes contextos: Reprodutor Musical, Aparelho Telefônico e Navegador na Internet. Cada funcionalidade é representada por uma interface específica, e a classe `IPhone` implementa todas essas interfaces para demonstrar a versatilidade do dispositivo.
 
-Diagrama de Classes
-A seguir está o diagrama de classes que representa a estrutura das interfaces e da classe IPhone:
+## Funcionalidades
 
-Diagrama de Classes
+### Reprodutor Musical
 
-O diagrama de classes acima ilustra as relações entre as interfaces e a classe IPhone. Cada interface representa uma funcionalidade específica do iPhone, e a classe IPhone implementa todas essas interfaces para criar um dispositivo multifuncional.
+A funcionalidade de Reprodutor Musical é implementada pela interface `ReprodutorMusical`, que define métodos para reproduzir, pausar, avançar e retroceder músicas.
 
-Implementações em Java
-Abaixo estão as implementações das interfaces e da classe IPhone em arquivos .java:
+### Aparelho Telefônico
 
-ReprodutorMusical.java
+A funcionalidade de Aparelho Telefônico é representada pela interface `AparelhoTelefonico`, que define métodos para fazer chamadas, receber chamadas e encerrar chamadas.
 
-java
-Copy code
+### Navegador na Internet
+
+A funcionalidade de Navegador na Internet é definida pela interface `NavegadorInternet`, que define métodos para abrir URLs, fechar URLs e realizar buscas na internet.
+
+## Diagrama de Classes
+
+A seguir está o diagrama de classes que representa a estrutura das interfaces e da classe `IPhone`:
+
+![Diagrama de Classes](link-para-imagem-do-diagrama.png)
+
+O diagrama de classes acima ilustra as relações entre as interfaces e a classe `IPhone`. Cada interface representa uma funcionalidade específica do iPhone, e a classe `IPhone` implementa todas essas interfaces para criar um dispositivo multifuncional.
+
+## Implementações em Java
+
+Abaixo estão as implementações das interfaces e da classe `IPhone` em arquivos `.java`:
+
+**ReprodutorMusical.java**
+```java
 interface ReprodutorMusical {
     void reproduzirMusica();
     void pausarMusica();
     void avancarMusica();
     void retrocederMusica();
 }
-AparelhoTelefonico.java
+```
 
-java
-Copy code
+**AparelhoTelefonico.java**
+```java
 interface AparelhoTelefonico {
     void fazerChamada(String numero);
     void receberChamada(String numero);
     void encerrarChamada();
 }
-NavegadorInternet.java
+```
 
-java
-Copy code
+**NavegadorInternet.java**
+```java
 interface NavegadorInternet {
     void abrirURL(String url);
     void fecharURL();
     void realizarBusca(String termo);
 }
-IPhone.java
+```
 
-java
-Copy code
+**IPhone.java**
+```java
 class IPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
     // Implementações dos métodos das interfaces...
 
     // ...
 }
-Uso
-O exemplo de uso do iPhone pode ser encontrado no método main da classe Main:
+```
 
-Main.java
+## Uso
 
-java
-Copy code
+O exemplo de uso do iPhone pode ser encontrado no método `main` da classe `Main`:
+
+**Main.java**
+```java
 public class Main {
     public static void main(String[] args) {
         IPhone iphone = new IPhone();
@@ -73,3 +83,8 @@ public class Main {
         iphone.abrirURL("https://www.example.com");
     }
 }
+```
+
+---
+
+Espero que este README represente adequadamente o seu projeto e o ajude a comunicar a funcionalidade e a estrutura do projeto de maneira clara. Certifique-se de substituir "link-para-imagem-do-diagrama.png" pelo link correto para a imagem do diagrama de classes que você criou.
